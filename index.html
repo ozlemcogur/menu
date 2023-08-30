@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="p-2">
+        <h1 class="text-center">Menümüz</h1>
+        <div class="d-flex justify-content-center gap-3 my-4">
+            <div class="btn btn-outline-dark filter-btn" data-id="all">Hepsi</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="breakfast">Kahvaltı</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="lunch">Öğle Yemeği</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="shakes">İçecekler</div>
+        </div>
+        <div class="row row-cols-lg-2 justify-content-center" id="menu-container"></div>
+    </div>
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>

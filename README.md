@@ -7,3 +7,5 @@ It is software developed for restaurants, featuring filterable categories.
 HTML, CSS and Javascript
 
 <h3>Screen<h3>
+
+![](menu.gif)
